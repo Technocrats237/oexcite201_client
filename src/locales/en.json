@@ -1,0 +1,61 @@
+{
+  "button": {
+    "cancel": "Cancel",
+    "continue": "Continue",
+    "confirm": "Confirm",
+    "login": "SIGN IN",
+    "ok": "OK",
+    "message": "Message",
+    "close": "Close",
+    "secure": "Secure Account",
+    "understood": "I understand",
+    "no": "Noooo",
+    "archive": "Archive",
+    "edit": "Edit",
+    "explore": "Explore",
+    "detail": "Details",
+    "settings": "Settings",
+    "sensors": "SENSORS",
+    "dashboard": "Dashboard",
+    "logout": "Logout"
+  },
+  "login": {
+    "button": "Login",
+    "error": {
+      "message": "Invalid username or password",
+      "server": "Unable to connect to server. Please ensure that the server or database is running"
+    },
+    "expired": {
+      "message": "Please enter your account password (username: {0})",
+      "notify": "Please, login again to continue working",
+      "notify_title": "Session expired",
+      "title": "Provide your password"
+    },
+    "password": "PASSWORD",
+    "title": "SIGN IN",
+    "username": "USERNAME",
+    "forgot": "Forgot Password ?",
+    "remember": "Stay Signed in",
+    "welcome": "Welcome back, {0} since {1}",
+    "reset": "Password successfully changed"
+  },
+  "status": {
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "error": "Error",
+    "info": "Info",
+    "ok": "OK",
+    "success": "Success",
+    "validation": "Validation Error",
+    "warn": "Warning",
+    "warning": "Warning",
+    "message": "Message",
+    "unauthorised": "Unauthorised"
+  },
+  "tpl": {
+    "name": "Tpl",
+    "button": {},
+    "message": {},
+    "title": {}
+  }
+}

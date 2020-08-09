@@ -1,0 +1,86 @@
+{
+	"button": {
+		"cancel": "Annuler",
+		"continue": "Continuer",
+		"login": "S'identifier",
+		"ok": "OK",
+		"secure": "Rester en sécurité"
+	},
+	"login": {
+		"button": "S'identifier",
+		"error": {
+			"message": "Nom d'utilisateur ou mot de passe invalide",
+			"server": "Incapable de se connecter au serveur. Veuillez vous assurer que le serveur ou la base de données est en cours d'exécution"
+		},
+		"expired": {
+			"message": "Veuillez saisir le mot de passe de votre compte (Utilisateur: {0})",
+			"notify": "Veuillez vous reconnecter pour continuer à travailler",
+			"notify_title": "La session a expiré",
+			"title": "Entrez votre mot de passe"
+		},
+		"password": "Mot de passe",
+		"title": "Identification",
+		"username": "Nom d'utilisateur",
+		"welcome": "Bon retour, {0}, depuis le {1}"
+	},
+	"status": {
+		"cancel": "Annuler",
+		"confirm": "Confirmer",
+		"error": "Erreur",
+		"info": "Info",
+		"ok": "OK",
+		"success": "Succès",
+		"validation": "Erreur de validation",
+		"warn": "Attention",
+		"warning": "Attention"
+	},
+	"supplier": {
+		"archive": {
+			"success": "{0} a été archivé"
+		},
+		"button": {
+			"all": "TOUS LES FOURNISSEURS",
+			"archive": "Archivé",
+			"create": "Nouveau fournisseur",
+			"history": "Histoire",
+			"make_payment": "Effectuer le paiement",
+			"payment": "Paiements",
+			"supplies": "Provisions"
+		},
+		"confirm": {
+			"archive": "Continuer d'ajouter le fournisseur aux archives?",
+			"restore": "Continuer à restaurer le fournisseur?",
+			"update": ""
+		},
+		"create": {
+			"success": "Fournisseur créé"
+		},
+		"history": {
+			"title": "{0} - Historique des approvisionnements"
+		},
+		"modals": {
+			"items": {
+				"title": "Articles achetés le {0} de {1}"
+			},
+			"payment": {
+				"amount": "Impossible de payer un montant supérieur à la dette"
+			}
+		},
+		"name": "Fournisseur",
+		"payments": "Tous les paiements",
+		"pending": "En attente",
+		"received": "REÇU",
+		"restore": {
+			"success": "1 fournisseur restauré"
+		},
+		"table": {
+			"amount": "Montant",
+			"date": "Date",
+			"user": "Versée à"
+		},
+		"title": "Gérer les fournisseurs",
+		"update": {
+			"success": ""
+		}
+	}
+}
