@@ -23,7 +23,8 @@
     "button": "Login",
     "error": {
       "message": "Invalid username or password",
-      "server": "Unable to connect to server. Please ensure that the server or database is running"
+      "server": "Unable to connect to server. Please ensure that the server or database is running",
+      "else": "Something is not right!"
     },
     "expired": {
       "message": "Please enter your account password (username: {0})",

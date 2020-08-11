@@ -79,8 +79,10 @@
                         this.$router.push({name: 'home'})
                     })
                     .catch(error => {
-                        if (error.response.status === 401) {
+                        if (error.response && error.response.status === 401) {
                             this.auth_message = error.response.data.message
+                        } else {
+                            this.auth_message = this.$t('login.error.else')
                         }
                     })
                     .then(() => {
