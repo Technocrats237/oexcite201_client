@@ -4,7 +4,7 @@
     <aside class="app-sidebar">
         <div class="app-sidebar__user">
             <img class="app-sidebar__user-avatar" height="48" width="48" style="background: white"
-                 :src="`${baseUrl}images/avatar.png`" alt="User Image">
+                 src="/images/avatar.png" alt="User Image">
             <div>
                 <p class="app-sidebar__user-name">{{ user.username }}</p>
             </div>
@@ -20,10 +20,66 @@
                     class="app-menu__icon fa fa-microchip"></i><span class="app-menu__label">{{ $t('button.sensors') }}</span><i
                     class="treeview-indicator fa fa-angle-right"></i></a>
                 <ul class="treeview-menu">
-                    <li><a class="treeview-item" href="bootstrap-components.html"><i class="icon fa fa-circle-o"></i>
-                        Bootstrap Elements</a></li>
-                    <li><a class="treeview-item" href="https://fontawesome.com/v4.7.0/icons/" target="_blank"
-                           rel="noopener"><i class="icon fa fa-circle-o"></i> Font Icons</a>
+                    <li>
+                        <router-link class="treeview-item" :to="{name: ''}" rel="noopener">
+                            <i class="icon fa fa-circle-o"></i> Temperature</router-link>
+                    </li>
+                    <li>
+                        <router-link class="treeview-item" :to="{name: ''}" rel="noopener">
+                            <i class="icon fa fa-circle-o"></i> pH</router-link>
+                    </li>
+                    <li>
+                        <router-link class="treeview-item" :to="{name: ''}" rel="noopener">
+                            <i class="icon fa fa-circle-o"></i> Turbidity</router-link>
+                    </li>
+                    <li>
+                        <router-link class="treeview-item" :to="{name: ''}" rel="noopener">
+                            <i class="icon fa fa-circle-o"></i> Dissolve Oxygen</router-link>
+                    </li>
+                </ul>
+            </li>
+            <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i
+                    class="app-menu__icon fa fa-microchip"></i>
+                <span class="app-menu__label">{{ $t('button.levels') }}</span><i
+                    class="treeview-indicator fa fa-angle-right"></i></a>
+                <ul class="treeview-menu">
+                    <li>
+                        <router-link class="treeview-item" :to="{name: ''}" rel="noopener">
+                            <i class="icon fa fa-circle-o"></i>Fish Tank Water</router-link>
+                    </li>
+                    <li>
+                        <router-link class="treeview-item" :to="{name: ''}" rel="noopener">
+                            <i class="icon fa fa-circle-o"></i>Sensor Tank Water</router-link>
+                    </li>
+                    <li>
+                        <router-link class="treeview-item" :to="{name: ''}" rel="noopener">
+                            <i class="icon fa fa-circle-o"></i>Feeder Food Level</router-link>
+                    </li>
+                </ul>
+            </li>
+            <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i
+                    class="app-menu__icon fa fa-microchip"></i><span class="app-menu__label">{{ $t('button.actuators') }}</span><i
+                    class="treeview-indicator fa fa-angle-right"></i></a>
+                <ul class="treeview-menu">
+                    <li>
+                        <router-link class="treeview-item" :to="{name: ''}" rel="noopener">
+                            <i class="icon fa fa-circle-o"></i> HEATER</router-link>
+                    </li>
+                    <li>
+                        <router-link class="treeview-item" :to="{name: ''}" rel="noopener">
+                            <i class="icon fa fa-circle-o"></i> PUMP</router-link>
+                    </li>
+                    <li>
+                        <router-link class="treeview-item" :to="{name: ''}" rel="noopener">
+                            <i class="icon fa fa-circle-o"></i> AREATOR</router-link>
+                    </li>
+                    <li>
+                        <router-link class="treeview-item" :to="{name: ''}" rel="noopener">
+                            <i class="icon fa fa-circle-o"></i> FISH TANK ELECTROVALVE</router-link>
+                    </li>
+                    <li>
+                        <router-link class="treeview-item" :to="{name: ''}" rel="noopener">
+                            <i class="icon fa fa-circle-o"></i> RESERVOIR TANK ELECTROVALVE</router-link>
                     </li>
                 </ul>
             </li>

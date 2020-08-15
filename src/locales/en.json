@@ -16,6 +16,8 @@
     "detail": "Details",
     "settings": "Settings",
     "sensors": "SENSORS",
+    "levels": "Level Sensor",
+    "actuators": "Actuation",
     "dashboard": "Dashboard",
     "logout": "Logout"
   },

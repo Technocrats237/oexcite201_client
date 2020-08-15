@@ -15,7 +15,7 @@ import AuthService from './services/auth.service'
 
 
 Vue.config.productionTip = false
-axios.defaults.baseURL = process.env.BASE_API || 'http://localhost:8000/api/v1/'
+axios.defaults.baseURL = process.env.NODE_ENV === 'production' ? 'https://api.aquareign-smarta.com/api/v1/' : 'http://localhost:8000/api/v1/'
 axios.defaults.headers.common['Accept'] = 'application/json'
 axios.interceptors.request.use(function (config) {
     // Do something before request is sent
