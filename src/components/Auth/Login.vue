@@ -23,13 +23,13 @@
                     </div>
                     <div class="form-group">
                         <div class="utility">
-                            <div class="animated-checkbox">
+                            <!--<div class="animated-checkbox">
                                 <label>
                                     <input type="checkbox"><span class="label-text">{{ $t('login.remember') }}</span>
                                 </label>
                             </div>
                             <p class="semibold-text mb-2"><a href="#" data-toggle="flip">{{ $t('login.forgot') }}</a></p>
-                        </div>
+                        --></div>
                     </div>
                     <div class="form-group btn-container">
                         <button :disabled="loading" @click.prevent="login" class="btn btn-primary btn-block">
@@ -54,7 +54,7 @@
                     username: 'admin',
                     password: 'password'
                 },
-                appName: process.env.APP_NAME || 'Smarta',
+                appName: process.env.APP_NAME || 'Oexcite201',
                 loading: false,
                 auth_message: ''
             }

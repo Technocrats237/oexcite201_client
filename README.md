@@ -1,24 +1,21 @@
-# smarta-dashboard
+# technocrat-oexcite201-dashboard
 
+![alt text](public/images/dashboard.png "Logo Title Text 1")
 ## Project setup
 ```
-yarn install
+npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compiles and run
 ```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
+npm run serve
 ```
 
-### Lints and fixes files
 ```
-yarn lint
+Goto http://localhost:8080
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Login (After completing the API setup)
+Username: admin
+
+Password: password

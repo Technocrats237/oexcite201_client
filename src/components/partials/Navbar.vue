@@ -1,5 +1,5 @@
 <template>
-    <header class="app-header"><a class="app-header__logo" href="index.html">{{ appName }}</a>
+    <header class="app-header"><router-link class="app-header__logo" :to="{name: 'dashboard'}">{{ appName }}</router-link>
         <!-- Sidebar toggle button--><a class="app-sidebar__toggle" href="#" data-toggle="sidebar"
                                         aria-label="Hide Sidebar"></a>
         <!-- Navbar Right Menu-->

@@ -5,6 +5,7 @@ import axios from 'axios'
 import VueRouter from 'vue-router'
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
+import locale from 'element-ui/lib/locale/lang/en'
 import router from './router'
 import store from './store'
 import VueI18n from 'vue-i18n'
@@ -15,7 +16,7 @@ import AuthService from './services/auth.service'
 
 
 Vue.config.productionTip = false
-axios.defaults.baseURL = process.env.NODE_ENV === 'production' ? 'https://api.aquareign-smarta.com/api/v1/' : 'http://localhost:8000/api/v1/'
+axios.defaults.baseURL = process.env.NODE_ENV === 'production' ? '' : 'http://localhost:8000/api/v1/'
 axios.defaults.headers.common['Accept'] = 'application/json'
 axios.interceptors.request.use(function (config) {
     // Do something before request is sent
@@ -32,7 +33,7 @@ Vue.prototype.$http = axios
 Vue.use(VueRouter)
 Vue.use(VueStrap)
 Vue.use(VueI18n)
-Vue.use(ElementUI)
+Vue.use(ElementUI, {locale})
 
 const i18n = new VueI18n({
     locale: process.env.VUE_APP_I18N_LOCALE || 'en',
@@ -63,7 +64,7 @@ router.beforeEach((to, from, next) => {
 Vue.mixin({
     data() {
         return {
-            appName: process.env.APP_NAME || "Smarta"
+            appName: process.env.APP_NAME || "Technocrats 201"
         }
     }
 })
